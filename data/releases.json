@@ -1,1 +1,44 @@
-
+[
+  {
+    "id": "release-01",
+    "game": "Fortnite",
+    "title": "Nouvelle saison",
+    "date": "2026-09-15",
+    "platforms": ["PC", "PS5", "Xbox Series", "Switch"]
+  },
+  {
+    "id": "release-02",
+    "game": "Call of Duty",
+    "title": "Nouvelle mise à jour",
+    "date": "2026-09-18",
+    "platforms": ["PC", "PS5", "Xbox Series"]
+  },
+  {
+    "id": "release-03",
+    "game": "Rainbow Six Siege",
+    "title": "Nouvelle opération",
+    "date": "2026-09-22",
+    "platforms": ["PC", "PS5", "Xbox Series"]
+  },
+  {
+    "id": "release-04",
+    "game": "VALORANT",
+    "title": "Nouvelle mise à jour",
+    "date": "2026-09-25",
+    "platforms": ["PC", "PS5", "Xbox Series"]
+  },
+  {
+    "id": "release-05",
+    "game": "Minecraft",
+    "title": "Nouveaux contenus",
+    "date": "2026-10-02",
+    "platforms": ["PC", "PS5", "Xbox Series", "Switch"]
+  },
+  {
+    "id": "release-06",
+    "game": "The Isle",
+    "title": "Nouvelle évolution",
+    "date": "2026-10-10",
+    "platforms": ["PC"]
+  }
+]
