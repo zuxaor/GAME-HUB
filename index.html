@@ -3,11 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta
         name="description"
@@ -16,579 +12,546 @@
 
     <title>GAME HUB | Portail Gaming</title>
 
-    <!-- Police -->
-    <link
-        rel="preconnect"
-        href="https://fonts.googleapis.com"
-    >
-
-    <link
-        rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin
-    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link
         href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
         rel="stylesheet"
     >
 
-    <!-- CSS -->
-    <link
-        rel="stylesheet"
-        href="css/style.css"
-    >
-
-    <link
-        rel="stylesheet"
-        href="css/animations.css"
-    >
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
 </head>
 
 <body>
 
-    <!-- =====================================================
-         HEADER
-         ===================================================== -->
+<header class="site-header">
 
-    <header class="site-header">
+    <div class="container header-inner">
 
-        <div class="container header-inner">
+        <a href="index.html" class="logo">
+            GAME<span>HUB</span>
+        </a>
 
-            <a
-                href="index.html"
-                class="logo"
-            >
-                GAME<span>HUB</span>
+        <button
+            class="menu-toggle"
+            type="button"
+            aria-label="Ouvrir le menu"
+        >
+            ☰
+        </button>
+
+        <nav class="main-nav">
+
+            <a href="index.html" class="active">
+                Accueil
             </a>
 
-            <button
-                class="menu-toggle"
-                type="button"
-                aria-label="Ouvrir le menu"
+            <a href="games.html">
+                Jeux
+            </a>
+
+            <a href="news.html">
+                Actualités
+            </a>
+
+            <a href="releases.html">
+                Sorties
+            </a>
+
+        </nav>
+
+        <div class="header-search">
+
+            <input
+                type="search"
+                placeholder="Rechercher..."
+                aria-label="Rechercher"
             >
-                ☰
-            </button>
-
-            <nav class="main-nav">
-
-                <a
-                    href="index.html"
-                    class="active"
-                >
-                    Accueil
-                </a>
-
-                <a href="games.html">
-                    Jeux
-                </a>
-
-                <a href="news.html">
-                    Actualités
-                </a>
-
-                <a href="releases.html">
-                    Sorties
-                </a>
-
-            </nav>
-
-            <div class="header-search">
-
-                <input
-                    type="search"
-                    placeholder="Rechercher..."
-                    aria-label="Rechercher"
-                >
-
-            </div>
 
         </div>
 
-    </header>
+    </div>
+
+</header>
 
 
-    <!-- =====================================================
-         HERO
-         ===================================================== -->
+<main>
 
-    <main>
+    <!-- HERO -->
 
-        <section class="hero">
+    <section class="hero">
 
-            <div class="container">
+        <div class="container">
 
-                <div class="hero-content animate-fade">
+            <div class="hero-content animate-fade">
 
-                    <span class="badge">
-                        PORTAIL GAMING
-                    </span>
+                <span class="badge">
+                    PORTAIL GAMING
+                </span>
 
-                    <h1>
-                        L'univers du
-                        <span>gaming</span>
-                        réuni au même endroit.
-                    </h1>
+                <h1>
+                    L'univers du
+                    <span>gaming</span>
+                    réuni au même endroit.
+                </h1>
 
-                    <p>
-                        Retrouvez vos jeux préférés, les dernières
-                        actualités, les prochaines sorties et toute
-                        l'information gaming.
-                    </p>
+                <p>
+                    Retrouvez vos jeux préférés, les dernières
+                    actualités, les prochaines sorties et toute
+                    l'information gaming.
+                </p>
 
-                    <div>
-
-                        <a
-                            href="games.html"
-                            class="btn btn-primary clip-corner"
-                        >
-                            Explorer les jeux
-                        </a>
-
-                        <a
-                            href="news.html"
-                            class="btn"
-                        >
-                            Dernières actualités
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =================================================
-             JEUX POPULAIRES
-             ================================================= -->
-
-        <section class="section">
-
-            <div class="container">
-
-                <div class="section-header">
-
-                    <div>
-
-                        <h2>
-                            Jeux populaires
-                        </h2>
-
-                        <p>
-                            Les jeux suivis par la communauté GAME HUB.
-                        </p>
-
-                    </div>
+                <div>
 
                     <a
                         href="games.html"
-                        class="btn"
+                        class="btn btn-primary clip-corner"
                     >
-                        Voir tous les jeux
+                        Explorer les jeux
                     </a>
-
-                </div>
-
-
-                <div class="grid grid-4">
-
-                    <article
-                        class="card game-card"
-                        data-search="fortnite battle royale"
-                        data-category="Battle Royale"
-                    >
-
-                        <div class="card-image">
-
-                            <img
-                                src="assets/images/games/fortnite.svg"
-                                alt="Fortnite"
-                            >
-
-                        </div>
-
-                        <div class="card-body">
-
-                            <div class="game-title">
-
-                                <h3>
-                                    Fortnite
-                                </h3>
-
-                                <span class="badge">
-                                    BR
-                                </span>
-
-                            </div>
-
-                            <p>
-                                Battle Royale
-                            </p>
-
-                            <div class="card-meta">
-
-                                <span class="badge-success badge">
-                                    En ligne
-                                </span>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-                    <article
-                        class="card game-card"
-                        data-search="call of duty fps"
-                        data-category="FPS"
-                    >
-
-                        <div class="card-image">
-
-                            <img
-                                src="assets/images/games/call-of-duty.svg"
-                                alt="Call of Duty"
-                            >
-
-                        </div>
-
-                        <div class="card-body">
-
-                            <div class="game-title">
-
-                                <h3>
-                                    Call of Duty
-                                </h3>
-
-                                <span class="badge">
-                                    FPS
-                                </span>
-
-                            </div>
-
-                            <p>
-                                FPS militaire
-                            </p>
-
-                            <div class="card-meta">
-
-                                <span class="badge-success badge">
-                                    En ligne
-                                </span>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-                    <article
-                        class="card game-card"
-                        data-search="rainbow six siege fps tactique"
-                        data-category="FPS"
-                    >
-
-                        <div class="card-image">
-
-                            <img
-                                src="assets/images/games/rainbow-six-siege.svg"
-                                alt="Rainbow Six Siege"
-                            >
-
-                        </div>
-
-                        <div class="card-body">
-
-                            <div class="game-title">
-
-                                <h3>
-                                    Rainbow Six Siege
-                                </h3>
-
-                                <span class="badge">
-                                    FPS
-                                </span>
-
-                            </div>
-
-                            <p>
-                                FPS tactique
-                            </p>
-
-                            <div class="card-meta">
-
-                                <span class="badge-success badge">
-                                    En ligne
-                                </span>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-                    <article
-                        class="card game-card"
-                        data-search="valorant fps tactique"
-                        data-category="FPS"
-                    >
-
-                        <div class="card-image">
-
-                            <img
-                                src="assets/images/games/valorant.svg"
-                                alt="VALORANT"
-                            >
-
-                        </div>
-
-                        <div class="card-body">
-
-                            <div class="game-title">
-
-                                <h3>
-                                    VALORANT
-                                </h3>
-
-                                <span class="badge">
-                                    FPS
-                                </span>
-
-                            </div>
-
-                            <p>
-                                FPS compétitif
-                            </p>
-
-                            <div class="card-meta">
-
-                                <span class="badge-success badge">
-                                    En ligne
-                                </span>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =================================================
-             ACTUALITÉS
-             ================================================= -->
-
-        <section class="section">
-
-            <div class="container">
-
-                <div class="section-header">
-
-                    <div>
-
-                        <h2>
-                            Dernières actualités
-                        </h2>
-
-                        <p>
-                            Les dernières nouvelles de vos jeux préférés.
-                        </p>
-
-                    </div>
 
                     <a
                         href="news.html"
                         class="btn"
                     >
-                        Toutes les actualités
+                        Dernières actualités
                     </a>
 
                 </div>
 
+            </div>
 
-                <div class="grid grid-3">
+        </div>
 
-                    <article
-                        class="card news-card"
-                        data-search="fortnite actualité"
-                    >
-
-                        <div class="card-image">
-
-                            <img
-                                src="assets/images/news/fortnite.svg"
-                                alt="Actualité Fortnite"
-                            >
-
-                        </div>
-
-                        <div class="card-body">
-
-                            <div class="news-date">
-                                01 septembre 2026
-                            </div>
-
-                            <h3>
-                                Fortnite : une nouvelle saison se prépare
-                            </h3>
-
-                            <p>
-                                Les joueurs se préparent à découvrir
-                                de nouveaux contenus et changements.
-                            </p>
-
-                        </div>
-
-                    </article>
+    </section>
 
 
-                    <article
-                        class="card news-card"
-                        data-search="call of duty mise à jour"
-                    >
+    <!-- JEUX POPULAIRES -->
 
-                        <div class="card-image">
+    <section class="section">
 
-                            <img
-                                src="assets/images/news/call-of-duty.svg"
-                                alt="Actualité Call of Duty"
-                            >
+        <div class="container">
 
-                        </div>
+            <div class="section-header">
 
-                        <div class="card-body">
+                <div>
 
-                            <div class="news-date">
-                                02 septembre 2026
-                            </div>
+                    <h2>
+                        Jeux populaires
+                    </h2>
 
-                            <h3>
-                                Call of Duty reçoit une nouvelle mise à jour
-                            </h3>
-
-                            <p>
-                                Une nouvelle mise à jour apporte
-                                plusieurs ajustements au jeu.
-                            </p>
-
-                        </div>
-
-                    </article>
-
-
-                    <article
-                        class="card news-card"
-                        data-search="rainbow six siege opération"
-                    >
-
-                        <div class="card-image">
-
-                            <img
-                                src="assets/images/news/rainbow-six.svg"
-                                alt="Actualité Rainbow Six Siege"
-                            >
-
-                        </div>
-
-                        <div class="card-body">
-
-                            <div class="news-date">
-                                02 septembre 2026
-                            </div>
-
-                            <h3>
-                                Rainbow Six Siege : les nouveautés
-                            </h3>
-
-                            <p>
-                                La prochaine opération apporte
-                                du nouveau contenu.
-                            </p>
-
-                        </div>
-
-                    </article>
+                    <p>
+                        Les jeux suivis par la communauté GAME HUB.
+                    </p>
 
                 </div>
 
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <!-- =====================================================
-         FOOTER
-         ===================================================== -->
-
-    <footer class="site-footer">
-
-        <div class="container footer-inner">
-
-            <div>
-
                 <a
-                    href="index.html"
-                    class="logo"
+                    href="games.html"
+                    class="btn"
                 >
-                    GAME<span>HUB</span>
+                    Voir tous les jeux
                 </a>
-
-                <p>
-                    Le portail gaming nouvelle génération.
-                </p>
 
             </div>
 
-            <div class="footer-links">
 
-                <a href="index.html">
-                    Accueil
-                </a>
+            <div class="grid grid-4">
 
-                <a href="games.html">
-                    Jeux
-                </a>
 
-                <a href="news.html">
-                    Actualités
-                </a>
+                <!-- FORTNITE -->
 
-                <a href="releases.html">
-                    Sorties
-                </a>
+                <article
+                    class="card game-card"
+                    data-search="fortnite battle royale"
+                    data-category="Battle Royale"
+                >
+
+                    <div class="card-image">
+
+                        <img
+                            src="assets/images/games/fortnite.jpg"
+                            alt="Fortnite"
+                        >
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="game-title">
+
+                            <h3>
+                                Fortnite
+                            </h3>
+
+                            <span class="badge">
+                                BR
+                            </span>
+
+                        </div>
+
+                        <p>
+                            Battle Royale
+                        </p>
+
+                        <div class="card-meta">
+
+                            <span class="badge-success badge">
+                                En ligne
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CALL OF DUTY -->
+
+                <article
+                    class="card game-card"
+                    data-search="call of duty fps"
+                    data-category="FPS"
+                >
+
+                    <div class="card-image">
+
+                        <img
+                            src="assets/images/games/call-of-duty.jpg"
+                            alt="Call of Duty"
+                        >
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="game-title">
+
+                            <h3>
+                                Call of Duty
+                            </h3>
+
+                            <span class="badge">
+                                FPS
+                            </span>
+
+                        </div>
+
+                        <p>
+                            FPS militaire
+                        </p>
+
+                        <div class="card-meta">
+
+                            <span class="badge-success badge">
+                                En ligne
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- RAINBOW SIX SIEGE -->
+
+                <article
+                    class="card game-card"
+                    data-search="rainbow six siege fps tactique"
+                    data-category="FPS"
+                >
+
+                    <div class="card-image">
+
+                        <img
+                            src="assets/images/games/rainbow-six-siege.jpg"
+                            alt="Rainbow Six Siege"
+                        >
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="game-title">
+
+                            <h3>
+                                Rainbow Six Siege
+                            </h3>
+
+                            <span class="badge">
+                                FPS
+                            </span>
+
+                        </div>
+
+                        <p>
+                            FPS tactique
+                        </p>
+
+                        <div class="card-meta">
+
+                            <span class="badge-success badge">
+                                En ligne
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- VALORANT -->
+
+                <article
+                    class="card game-card"
+                    data-search="valorant fps tactique"
+                    data-category="FPS"
+                >
+
+                    <div class="card-image">
+
+                        <img
+                            src="assets/images/games/valorant.jpg"
+                            alt="VALORANT"
+                        >
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="game-title">
+
+                            <h3>
+                                VALORANT
+                            </h3>
+
+                            <span class="badge">
+                                FPS
+                            </span>
+
+                        </div>
+
+                        <p>
+                            FPS compétitif
+                        </p>
+
+                        <div class="card-meta">
+
+                            <span class="badge-success badge">
+                                En ligne
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
 
             </div>
 
         </div>
 
+    </section>
+
+
+    <!-- ACTUALITÉS -->
+
+    <section class="section">
+
         <div class="container">
 
-            <p style="margin-top: 30px; font-size: 0.85rem;">
-                © <span data-current-year></span> GAME HUB. Tous droits réservés.
+            <div class="section-header">
+
+                <div>
+
+                    <h2>
+                        Dernières actualités
+                    </h2>
+
+                    <p>
+                        Les dernières nouvelles de vos jeux préférés.
+                    </p>
+
+                </div>
+
+                <a
+                    href="news.html"
+                    class="btn"
+                >
+                    Toutes les actualités
+                </a>
+
+            </div>
+
+
+            <div class="grid grid-3">
+
+                <article
+                    class="card news-card"
+                    data-search="fortnite actualité"
+                >
+
+                    <div class="card-image">
+
+                        <img
+                            src="assets/images/games/fortnite.jpg"
+                            alt="Actualité Fortnite"
+                        >
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="news-date">
+                            07 septembre 2026
+                        </div>
+
+                        <h3>
+                            Les dernières nouveautés de Fortnite
+                        </h3>
+
+                        <p>
+                            Retrouvez les dernières informations
+                            concernant Fortnite sur GAME HUB.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="card news-card"
+                    data-search="call of duty actualité"
+                >
+
+                    <div class="card-image">
+
+                        <img
+                            src="assets/images/games/call-of-duty.jpg"
+                            alt="Actualité Call of Duty"
+                        >
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="news-date">
+                            07 septembre 2026
+                        </div>
+
+                        <h3>
+                            Les nouveautés de Call of Duty
+                        </h3>
+
+                        <p>
+                            Toutes les informations concernant
+                            les prochaines nouveautés.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="card news-card"
+                    data-search="rainbow six siege actualité"
+                >
+
+                    <div class="card-image">
+
+                        <img
+                            src="assets/images/games/rainbow-six-siege.jpg"
+                            alt="Actualité Rainbow Six Siege"
+                        >
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="news-date">
+                            07 septembre 2026
+                        </div>
+
+                        <h3>
+                            Rainbow Six Siege
+                        </h3>
+
+                        <p>
+                            Retrouvez les dernières informations
+                            concernant Rainbow Six Siege.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="site-footer">
+
+    <div class="container footer-inner">
+
+        <div>
+
+            <a href="index.html" class="logo">
+                GAME<span>HUB</span>
+            </a>
+
+            <p>
+                Le portail gaming nouvelle génération.
             </p>
 
         </div>
 
-    </footer>
+        <div class="footer-links">
+
+            <a href="index.html">
+                Accueil
+            </a>
+
+            <a href="games.html">
+                Jeux
+            </a>
+
+            <a href="news.html">
+                Actualités
+            </a>
+
+            <a href="releases.html">
+                Sorties
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <p style="margin-top: 30px; font-size: 0.85rem;">
+            © <span data-current-year></span> GAME HUB.
+            Tous droits réservés.
+        </p>
+
+    </div>
+
+</footer>
 
 
-    <!-- JavaScript -->
-
-    <script src="js/main.js"></script>
+<script src="js/main.js"></script>
 
 </body>
-
 </html>
